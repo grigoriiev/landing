@@ -1,0 +1,114 @@
+.main {
+    background-image: url("../img/Layer-96.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-position: 1600px 901px;*/
+  //  height: 91vh;
+//min-height:50vh;
+ height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &__title {
+      font-family: 'Roboto', sans-serif;
+        color: #f5f5f5;
+        font-size: 152.55px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: auto;
+        letter-spacing: -10px;
+        text-align: center;
+
+
+    }
+    &__description {
+      font-family: 'Roboto', sans-serif;
+        color: #11749e;
+        font-size: 24.78px;
+        line-height: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 18.5px;
+        margin-left: 30px;
+        text-align: center;
+
+
+    }
+}
+
+.button__text {
+
+    font-family: "OpenSans-Regular";
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 118px;
+}
+
+.button__scroll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+position:relative;
+    background-color: rgba(128, 128, 128, 0);
+    width: 65px;
+    height: 65px;
+    margin-bottom: 109px;
+    color: #fff;
+
+
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    &:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+}
+@media screen and (max-width: 1220px) {
+    .main__title {
+ font-size: 52.55px;
+
+    } 
+    .main__description{
+        font-size: 20.78px;
+    }
+
+
+}
+@media screen and (max-height: 650px) {
+.main {
+ height: 100%;
+
+}
+.main__title{
+    display:none;
+}
+.main__description{
+display:none;
+
+}
+
+.button__scroll {
+   margin-left: 0;
+    margin-top: 240px;
+}
+.button__text {
+transform:translateY(240px);
+
+}
+
+}

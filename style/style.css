@@ -1,0 +1,42 @@
+.parent {
+  -webkit-transform: rotate(-80deg);
+  transform: rotate(-70deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  display: block;
+  text-align: center;
+  -webkit-box-shadow: 8px;
+  box-shadow: 8px;
+  height: 900px;
+}
+.parent.child {
+  display: inline;
+  background: dodgerblue;
+  padding: 4px 0;
+  margin: auto;
+  -webkit-box-shadow: 8px 0 0 dodgerblue, -8px 0 0 dodgerblue;
+  box-shadow: 8px 0 0 dodgerblue, -8px 0 0 dodgerblue;
+}
+parent {
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 250px;
+  display: block;
+  text-align: center;
+  -webkit-box-shadow: 8px;
+  box-shadow: 8px;
+  height: 800px;
+}
+child {
+  display: inline;
+  background: dodgerblue;
+  padding: 4px 0;
+  margin: auto;
+  -webkit-box-shadow: 8px 0 0 dodgerblue, -8px 0 0 dodgerblue;
+  box-shadow: 8px 0 0 dodgerblue, -8px 0 0 dodgerblue;
+}

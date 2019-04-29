@@ -1,0 +1,113 @@
+.agency {
+    max-width:1600px;
+    padding-top: 100px;
+    padding-bottom: 128px;
+    padding-left: 217px;
+    padding-right: 220px;
+    background-color: #11749e;
+
+}
+
+.big-W {
+    font-family: "RobotoCondensed-Bold";
+    color: #3c8daf;
+    font-size: 247.18px;
+    font-weight: 700;
+    line-height: 25.566px;
+    text-align: center;
+
+}
+
+
+
+.section-title-1 {
+   font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 37.55px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transform: translateY(37.55px);
+}
+
+.features__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 144px;
+
+
+
+
+    .features__item {
+        list-style: none;
+        text-align: center;
+        max-width: 217px;
+
+
+        &:before {
+            border-radius: 50%;
+            background-color: #2e85aa;
+            content: "";
+            width: 133px;
+            height: 133px;
+
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+
+        }
+
+    }
+    .section-title {
+       font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .features__description {
+font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+
+
+    }
+}
+
+.features__item--write-0:before {
+    background-image: url(../img/svg/Write.svg);
+}
+
+.features__item--write-1:before {
+    background-image: url(../img/svg/Write.svg);
+
+}
+
+.features__item--search:before {
+    background-image: url(../img/svg/Search-and-thou-shall-find.svg)
+}
+
+.features__item--say:before {
+    background-image: url(../img/svg/Simon%20says.svg)
+}
+@media screen and (max-width: 1220px) {
+    .agency{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .features__list {
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items:center;
+    }
+}

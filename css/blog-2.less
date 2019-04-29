@@ -1,0 +1,92 @@
+.blog-box-2{
+background-color:  #11749e;
+max-width: 1600px;
+min-height: 391px;
+width:auto;
+height:auto;
+padding-left:150px;
+padding-top:149px;
+padding-right:156px;
+padding-bottom:156px;
+
+&__list-2{
+
+display:flex;
+margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+&__list-2 >li{
+
+font-family: 'Roboto', sans-serif;
+color:  #ffffff;
+font-size: 15px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 24px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+width:552px;
+height:86px;
+margin-left: 103px;
+list-style:none;
+ &:before {
+          position: absolute;
+           transform:translateX(-103px);
+            content: "";
+            width: 69px;
+            height: 69px;
+           // background-color:red;
+            background-repeat: no-repeat;
+          //background-position: left right;
+            display: inline-block;
+
+        }
+
+
+
+
+
+
+
+
+
+}
+ 
+
+
+}
+
+
+.blog-box-2__iteam--write:before {
+    background-image: url(../img/svg/Write.svg);
+ 	background-size:cover;	
+}
+@media screen and (max-width: 1220px) {
+    .blog-box-2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+        
+          &__list-2{
+			display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+
+          }
+    
+}
